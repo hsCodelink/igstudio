@@ -1,0 +1,9 @@
+.mainCard {
+  display: flex;
+  flex-direction: row;
+}
+.subCard {
+  background: #1d1d1d;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+}

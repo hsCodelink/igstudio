@@ -1,0 +1,35 @@
+.header {
+  color: #ffffff;
+}
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.logo {
+  align-items: center;
+  padding: 10px 0;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+.menu ul li {
+  margin-right: 41px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+.contactButton button{
+  width: 172px;
+  height: 47px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  background-color: #111111;;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
