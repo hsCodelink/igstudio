@@ -1,0 +1,39 @@
+.mainOwlcarousel {
+  margin-top: 203px;
+}
+.topRow {
+  margin-bottom: 104px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.topRow h2 {
+  width: 374px;
+  height: 154px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 143.02%;
+  color: #ffffff;
+}
+.topRow button {
+  font-size: 25px;
+  align-items: center;
+  background: #e6e6e6;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.topRow .arrowBtn button:last-child {
+  background: #e3b748;
+}
+
+.owl-carousel .owl-item img {
+  width: 32% !important;
+}
+
+.owl-nav {
+  background-color: red;
+}

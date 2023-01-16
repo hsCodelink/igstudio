@@ -1,9 +1,34 @@
-.mainCard {
-  display: flex;
-  flex-direction: row;
-}
 .subCard {
   background: #1d1d1d;
   border: 1.4px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
+  width: 270px;
+  height: 320px;
+  padding: 40px 40px;
+}
+.subCard h5 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+.subCard p {
+  margin-top: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 162.52%;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.subCard button {
+  margin-top: 22px;
+  padding: 10px 20px;
+  background: #e3b748;
+  border-radius: 23.5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 162.52%;
+  color: #000000;
 }

@@ -1,5 +1,8 @@
 .mainSuccessSection {
-    margin-top: 203px;
+  margin-top: 203px;
+}
+.mainCard {
+  display: flex;
 }
 .heading {
   font-style: normal;

@@ -12,6 +12,8 @@ export const Images = {
   client_1: require("./asset/images/Client 1.png"),
   client_2: require("./asset/images/Client 2.png"),
   client_3: require("./asset/images/Client 3.png"),
+  left_arrow:require("./asset/images/left arrow.png"),
+  right_arrow:require("./asset/images/right arrow.png"),
   team_1: require("./asset/images/Team 1.png"),
   team_2: require("./asset/images/Team 2.png"),
   team_3: require("./asset/images/Team 3.png"),
@@ -27,8 +29,46 @@ export const Images = {
 export const card = [
   {
     img: Images.gift,
-    title: "98% Success Rate",
+    rate:"98%",
+    title: "Success Rate",
+    discription:
+      "Amet minim mollit non deserunt ullamco estsit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+  {
+    img: Images.gift,
+    rate:"100%",
+    title: "Success Rate",
+    discription:
+      "Amet minim mollit non deserunt ullamco estsit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+  {
+    img: Images.gift,
+    rate:"100%",
+    title: "Success Rate",
     discription:
       "Amet minim mollit non deserunt ullamco estsit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
   },
 ];
+
+export const clients=[
+  {
+    img:Images.client_1,
+    name:"jane Cooper",
+    profession:"Ceo of Hunt",
+    details:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+  },
+  {
+    img:Images.client_2,
+    name:"Devon Lane",
+    profession:"Ceo of Hunt",
+    details:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+  },
+  {
+    img:Images.client_3,
+    name:"Robert Fox",
+    profession:"Ceo of Hunt",
+    details:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+  }
+]
+
+

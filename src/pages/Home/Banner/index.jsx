@@ -3,6 +3,7 @@ import style from "../Banner/Banner.module.css";
 
 const Banner = ({ content: { massage_icon, home_banner } }) => {
   return (
+    <div className={style.bannerBg}>
     <div className="container">
       <div className={style.mainBanner}>
         <div className={style.leftBannerSection}>
@@ -27,6 +28,7 @@ const Banner = ({ content: { massage_icon, home_banner } }) => {
           <img src={home_banner}></img>
         </div>
       </div>
+    </div>
     </div>
   );
 };
