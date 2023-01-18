@@ -1,0 +1,46 @@
+.mainAccordion {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  transition: 0.7s;
+}
+.mainAccordion .accrodionHeading {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.mainAccordion .accrodionHeading h4 {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.accordionContent p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.52%;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.accordionContent {
+  transition: 0.7s;
+}
+.accrodionHeading button {
+  border: none;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2px;
+  color: #000000;
+  background: #E3B748;
+  border-radius: 50%;
+  padding: 4px 5px;
+}

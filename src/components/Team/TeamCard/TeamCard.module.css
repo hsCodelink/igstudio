@@ -1,0 +1,37 @@
+.mainTeamCard {
+  display: flex;
+  align-items: center;
+  margin: 85px 0;
+  padding: 10px 10px;
+}
+.teamDetails {
+  padding: 0 20px;
+}
+.teamDetails h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: #ffffff;
+}
+.teamDetails h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.3;
+}
+.mainTeamCard:hover {
+  background: #e3b748;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.mainTeamCard:hover h5 {
+  color: #373737;
+}
+.mainTeamCard:hover h6 {
+  color: #000000;
+  opacity: 0.4;
+}
