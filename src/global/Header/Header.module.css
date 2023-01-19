@@ -1,6 +1,6 @@
 .header {
   color: #ffffff;
-  background-color: black;
+  background-color: #111111;
 }
 .mainNav {
   display: flex;
@@ -22,8 +22,7 @@
   font-weight: 600;
 }
 .contactButton button{
-  width: 172px;
-  height: 47px;
+ padding: 13px 25px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;

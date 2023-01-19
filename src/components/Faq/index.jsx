@@ -3,8 +3,8 @@ import { faq } from "../../shared";
 import style from "../Faq/Faq.module.css";
 import AccordionSection from "./Accordian";
 
-const FaqSection = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+const Faq = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section>
@@ -27,6 +27,8 @@ const FaqSection = () => {
                     handleToggle={() => {
                       setActiveIndex(activeIndex === index ? null : index);
                     }}
+                    title={item.title}
+                    details={item.details}
                   />
                 </div>
               );
@@ -38,4 +40,4 @@ const FaqSection = () => {
   );
 };
 
-export default FaqSection;
+export default Faq;

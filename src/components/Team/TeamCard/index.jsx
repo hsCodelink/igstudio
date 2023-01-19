@@ -1,9 +1,8 @@
 import React from "react";
-import style from "../TeamCard/TeamCard.module.css";
+import style from "./TeamCard.module.css";
 
-const TeamCard = ({ content: { img, name, details } }) => {
+const Card = ({ content: { img, name, details } }) => {
   return (
-    <div className="container">
       <div className={style.mainTeamCard}>
         <div className={style.teamImage}>
           <img src={img}></img>
@@ -13,8 +12,7 @@ const TeamCard = ({ content: { img, name, details } }) => {
           <h6>{details}</h6>
         </div>
       </div>
-    </div>
   );
 };
 
-export default TeamCard;
+export default Card;

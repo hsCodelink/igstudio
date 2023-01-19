@@ -1,7 +1,8 @@
 import React from "react";
 import style from "../Banner/Banner.module.css";
+import { Images } from "../../../shared";
 
-const Banner = ({ content: { massage_icon, home_banner } }) => {
+const Banner = () => {
   return (
     <div className={style.bannerBg}>
     <div className="container">
@@ -19,13 +20,13 @@ const Banner = ({ content: { massage_icon, home_banner } }) => {
             eget, hac massa gravida arcu interdum proin curae.
           </p>
           <form className={style.formEmail}>
-            <img src={massage_icon}></img>
+            <img src={Images.massage_icon}></img>
             <input type="email" placeholder="Enter your email address" />
             <button>Let's Talk</button>
           </form>
         </div>
         <div className={style.rightBannerSection}>
-          <img src={home_banner}></img>
+          <img src={Images.home_banner}></img>
         </div>
       </div>
     </div>

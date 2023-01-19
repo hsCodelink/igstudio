@@ -27,7 +27,7 @@ export const Images = {
   tagimage: require("./asset/images/TagImage.png"),
 };
 
-export const card = [
+export const successDetails= [
   {
     img: Images.gift,
     rate: "98%",
@@ -74,28 +74,28 @@ export const clients = [
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
   },
   {
-    img: Images.client_2,
+    img: Images.client_3,
     name: "Robert Fox",
     profession: "Ceo of Hunt",
     details:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
   },
   {
-    img: Images.client_2,
+    img: Images.client_3,
     name: "Robert Fox",
     profession: "Ceo of Hunt",
     details:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
   },
   {
-    img: Images.client_2,
+    img: Images.client_3,
     name: "Robert Fox",
     profession: "Ceo of Hunt",
     details:
       "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
   },
 ];
-export const team = [
+export const cardDetails = [
   {
     img: Images.team1,
     name: "Danial Def",
@@ -148,5 +148,32 @@ export const faq = [
     title: "How much is my case worth?",
     details:
       "Amet minim mollit non deserunt ullamco est sitaliqua dolor do amet sint. Velit officia consequatduisenim velit mollit Exer. Amet minim mollit non deseruntullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.",
+  },
+];
+
+export const PRACTICES = [
+  {
+    src: Images.business_law_1,
+    title: "BUSINESS LAW",
+  },
+  {
+    src: Images.partnership_law,
+    title: "Partnership LAW",
+  },
+  {
+    src: Images.real_estate_law,
+    title: "REAL ESTATE LAW",
+  },
+  {
+    src: Images.business_law_2,
+    title: "BUSINESS LAW",
+  },
+  {
+    src: Images.landlord_disputes,
+    title: "LANDLORD DISPUTES",
+  },
+  {
+    src: Images.elder_abuse,
+    title: "ELDER ABUSE",
   },
 ];

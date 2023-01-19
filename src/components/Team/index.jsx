@@ -1,9 +1,10 @@
 import React from "react";
 import { team } from "../../shared";
 import style from "../Team/Team.module.css";
-import TeamCard from "./TeamCard";
+import Card from "./TeamCard";
+import { cardDetails } from "../../shared";
 
-const TeamSection = () => {
+const Team= () => {
   return (
     <section>
       <div className="container">
@@ -13,8 +14,8 @@ const TeamSection = () => {
            </div>
            <div className={style.teamCard}>
             {
-                team.map((item,index)=>{
-                    return <TeamCard content={item} key={index}/>
+                cardDetails.map((item,index)=>{
+                    return <Card content={item} key={index}/>
                 })
             }
            </div>
@@ -24,4 +25,4 @@ const TeamSection = () => {
   );
 };
 
-export default TeamSection;
+export default Team;

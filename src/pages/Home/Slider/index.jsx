@@ -11,18 +11,17 @@ const sliderSetting = {
   items:3,
   // margin:'2px',
   loop:true,
-  center:true,
-  mouseDrag:false,
+  // mouseDrag:false,
   // touchDrag:false,
   // pullDrag:false,
   // freeDrag:true,
-
+  center:true,
   // merge:true,
-  autoWidth:true,
+  // autoWidth:true,
   // startPosition:5,
   // nav:true,
   // rewind:false,
-  slideBy:2,
+  slideBy:3,
   // dots:true,
   // dotsEach:true,
   // autoplay:true,
@@ -33,7 +32,7 @@ const sliderSetting = {
   // navSpeed:true,
 };
 
-const ClientsSlider = () => {
+const Slider = () => {
   const slider = useRef();
   return (
     <section>
@@ -73,4 +72,4 @@ const ClientsSlider = () => {
   );
 };
 
-export default ClientsSlider;
+export default Slider;

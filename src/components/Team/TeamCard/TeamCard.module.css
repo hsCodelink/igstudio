@@ -1,8 +1,8 @@
 .mainTeamCard {
   display: flex;
   align-items: center;
-  margin: 85px 0;
   padding: 10px 10px;
+  margin-bottom: 10px;
 }
 .teamDetails {
   padding: 0 20px;

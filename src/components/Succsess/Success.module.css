@@ -3,6 +3,7 @@
 }
 .mainCard {
   display: flex;
+  gap: 20px;
 }
 .heading {
   font-style: normal;

@@ -1,7 +1,7 @@
 import React from "react";
-import { card } from "../../shared";
-import style from "../Succsess/Success.module.css";
-import Cards from "./Card";
+import { successDetails } from "../../shared";
+import style from "./Success.module.css";
+import Card from "./Card";
 
 const Success = () => {
   return (
@@ -13,9 +13,7 @@ const Success = () => {
           </div>
           <div>
             <div className={style.mainCard}>
-              {card.map((item, index) => {
-                return <Cards content={item} key={index} />;
-              })}
+              {successDetails.map((item, index) => (<Card content={item} key={index} />))}
             </div>
           </div>
         </div>
