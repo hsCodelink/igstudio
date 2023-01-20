@@ -3,14 +3,15 @@
   background-color: #1d1d1d;
   border: 1.4px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
-  width: 270px;
-  height: 320px;
-  padding: 40px 40px;
+  width: 330px;
+  height: 100%;
+  padding: 20px 20px;
 }
-.subCard > img {
+.subCard .cardImage img {
   width: 40% !important;
 }
-.subCard h5 {
+.subCard .cardContent h5 {
+  margin-top: 20px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -18,14 +19,14 @@
   color: #ffffff;
   margin-bottom: 25px;
 }
-.subCard h6 {
+.subCard .cardContent h6 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 3px;
   color: #ffffff;
 }
-.subCard p {
+.subCard .cardContent p {
   margin-top: 22px;
   font-style: normal;
   font-weight: 500;
@@ -40,4 +41,3 @@
   left: 70%;
   width: 20%;
 }
-

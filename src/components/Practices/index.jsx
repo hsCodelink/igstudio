@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "../Practices/Practices.module.css";
 import { PRACTICES } from "../../shared";
 
@@ -12,8 +12,12 @@ const Practices = () => {
             {PRACTICES.map((item, index) => {
               return (
                 <div className={style.practicesWrapper} key={index}>
-                  <img src={item.src} className={style.Image1}></img>
-                  <h5>{item.title}</h5>
+                  <div className={style.imageWrapper}>
+                    <img src={item.src}></img>
+                  </div>
+                  <div className={style.imageHeading}>
+                    <h5>{item.title}</h5>
+                  </div>
                 </div>
               );
             })}
