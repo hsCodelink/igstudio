@@ -10,7 +10,7 @@
 .subCard .cardImage img {
   width: 40% !important;
 }
-.subCard .cardContent h5 {
+.clientName h5 {
   margin-top: 20px;
   font-style: normal;
   font-weight: 600;
@@ -19,21 +19,16 @@
   color: #ffffff;
   margin-bottom: 25px;
 }
-.subCard .cardContent h6 {
+.profession h6 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 3px;
   color: #ffffff;
 }
-.subCard .cardContent p {
+.paragraphContent p {
   margin-top: 22px;
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 162.52%;
-  color: #ffffff;
-  opacity: 0.3;
 }
 .subCard .tagImage {
   position: absolute;

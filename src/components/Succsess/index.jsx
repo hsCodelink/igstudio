@@ -9,7 +9,7 @@ const Success = () => {
       <div className="container">
         <div className={style.mainSuccessSection}>
           <div className={style.heading}>
-            <h3>Why Choose us?</h3>
+            <h3 className="heading">Why Choose us?</h3>
           </div>
           <div>
             <div className={style.mainCard}>

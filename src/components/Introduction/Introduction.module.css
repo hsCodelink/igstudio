@@ -9,12 +9,6 @@
 .rightIntroSection {
   flex: 50%;
 }
-.leftIntroSection h2 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 54px;
-  line-height: 161.52%;
-}
 .rightIntroSection h4 {
   margin-left: 87px;
   font-style: normal;
@@ -22,14 +16,9 @@
   font-size: 32px;
   line-height: 162.52%;
 }
-.rightIntroSection p {
+.paragraphContent p {
   margin-left: 87px;
   margin-top: 16px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 162.52%;
-  color: #ffffff;
   opacity: 0.3;
 }
 .leftIntroSection {

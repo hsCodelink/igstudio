@@ -8,20 +8,20 @@ import { clients } from "../../../shared";
 import SliderCards from "./SliderCard";
 
 const sliderSetting = {
-  items:3,
+  items: 3,
   // margin:'2px',
-  loop:true,
+  loop: true,
   // mouseDrag:false,
   // touchDrag:false,
   // pullDrag:false,
   // freeDrag:true,
-  center:true,
+  center: true,
   // merge:true,
   // autoWidth:true,
   // startPosition:5,
   // nav:true,
   // rewind:false,
-  slideBy:3,
+  slideBy: 3,
   // dots:true,
   // dotsEach:true,
   // autoplay:true,
@@ -39,7 +39,7 @@ const Slider = () => {
       <div className="container">
         <div className={style.mainOwlcarousel}>
           <div className={style.topRow}>
-            <h2>What says our happy Clients</h2>
+            <h2 className="heading">What says our happy Clients</h2>
             <div className={style.arrowBtn}>
               <button
                 type="button"
@@ -57,7 +57,11 @@ const Slider = () => {
               </button>
             </div>
           </div>
-          <OwlCarousel ref={(c) => (slider.current = c)} {...sliderSetting} className = {style.customSlider}>
+          <OwlCarousel
+            ref={(c) => (slider.current = c)}
+            {...sliderSetting}
+            className={style.customSlider}
+          >
             {clients.map((item, index) => {
               return (
                 <div className="item" key={index}>

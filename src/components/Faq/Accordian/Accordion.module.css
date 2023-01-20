@@ -22,15 +22,7 @@
   color: #ffffff;
 }
 .accordionContent p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 162.52%;
-  color: #ffffff;
-  opacity: 0.3;
-}
-.accordionContent {
-  transition: 0.7s;
+  padding-top: 30px;
 }
 .accrodionHeading button {
   border: none;
@@ -40,7 +32,7 @@
   font-size: 18px;
   line-height: 2px;
   color: #000000;
-  background: #E3B748;
+  background: #e3b748;
   border-radius: 50%;
   padding: 4px 5px;
 }

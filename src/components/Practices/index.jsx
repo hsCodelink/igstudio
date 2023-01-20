@@ -7,7 +7,7 @@ const Practices = () => {
     <section>
       <div className="container">
         <div className={style.mainPracticesSection}>
-          <h3>Area of Practices</h3>
+          <h3 className="heading">Area of Practices</h3>
           <div className={style.mainImageSection}>
             {PRACTICES.map((item, index) => {
               return (

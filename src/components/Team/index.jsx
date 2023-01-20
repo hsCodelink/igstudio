@@ -10,7 +10,7 @@ const Team= () => {
       <div className="container">
         <div className={style.mainTeamSection}>
            <div className={style.teamHeding}>
-                <h3>Our Team</h3>
+                <h3 className="heading">Our Team</h3>
            </div>
            <div className={style.teamCard}>
             {

@@ -17,7 +17,7 @@ const AccordionSection = ({ show, handleToggle, title, details }) => {
       </div>
       {show && (
         <div className={style.accordionContent}>
-          <p> {details}</p>
+          <p className="content"> {details}</p>
         </div>
       )}
     </div>

@@ -12,9 +12,15 @@ const SliderCards = ({ content: { img, name, profession, details } }) => {
         <img src={Images.tagimage}></img>
       </div>
       <div className={style.cardContent}>
-        <h5>{name}</h5>
-        <h6>{profession}</h6>
-        <p>{details}</p>
+        <div className={style.clientName}>
+          <h5>{name}</h5>
+        </div>
+        <div className={style.profession}>
+          <h6>{profession}</h6>
+        </div>
+        <div className={style.paragraphContent}>
+          <p className="content">{details}</p>
+        </div>
       </div>
     </div>
   );

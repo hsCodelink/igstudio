@@ -10,14 +10,8 @@
   position: relative;
   flex-wrap: nowrap;
 }
-.topRow h2 {
-  width: 374px;
-  height: 154px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 54px;
-  line-height: 143.02%;
-  color: #ffffff;
+.heading h2 {
+  width: 70%;
 }
 .topRow button {
   font-size: 25px;
@@ -34,9 +28,8 @@
 }
 
 .customSlider div[class="owl-item active center"] div[id="customSubCard"] {
-  background: #2E2E2E;
+  background: #2e2e2e;
 }
 .customSlider div[class="owl-item active center"] div[id="customTagImage"] {
   opacity: 0 !important;
 }
-

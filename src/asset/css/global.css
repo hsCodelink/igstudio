@@ -1,29 +1,46 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #1d1d1d;
   line-height: 1;
   background-color: #1d1d1d;
-  font-family: 'Inter';
+  font-family: "Inter";
   color: #ffffff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-ul{
+ul {
   list-style: none;
 }
-.container{
+.container {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 143.02%;
+  color: #ffffff;
+}
+.content{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 162.52%;
+  color: #ffffff;
+  opacity: 0.3;
+}
 /* Font Family */
 
 /* Inter Font Fmaily */

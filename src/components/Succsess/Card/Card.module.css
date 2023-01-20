@@ -6,20 +6,15 @@
   height: 377px;
   padding: 20px 40px;
 }
-.subCard h5 {
+.title h5 {
   margin-top: 30px;
   font-weight: 600;
   font-size: 24px;
   line-height: 24px;
 }
-.subCard p {
+.paragraphContent p {
   margin-top: 26px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 162.52%;
-  color: #ffffff;
-  opacity: 0.3;
+  font-size: 14px !important;
 }
 .subCard button {
   margin-top: 22px;
@@ -32,6 +27,6 @@
   line-height: 162.52%;
   color: #000000;
 }
-.subCard:hover{
-  background-color: #2E2E2E;
+.subCard:hover {
+  background-color: #2e2e2e;
 }

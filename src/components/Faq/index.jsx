@@ -11,11 +11,13 @@ const Faq = () => {
       <div className="container">
         <div className={style.mainFaqSection}>
           <div className={style.leftFaqSection}>
-            <h2>FAQ</h2>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint.{" "}
-            </p>
+            <h2 className="heading">FAQ</h2>
+            <div className={style.paragraphContent}>
+              <p className="content">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint.{" "}
+              </p>
+            </div>
           </div>
           <div className={style.rightFaqSection}>
             {faq.map((item, index) => {
